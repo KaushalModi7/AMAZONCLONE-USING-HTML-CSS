@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    color: orange;
+    font-size:x-large;
+    padding-top: 10px;
+    padding-left: 3px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.add-first{
+    color: #cccc;
+    font-size: 1rem;
+    margin-left: 30px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 4px;
+}
+.add-icon{
+    display: flex;
+    align-items:center ;
+    margin-left: 30px;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: white;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: orange;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.nav-cart i{
+    font-size: 35px;
+}
+.nav-cart{
+    font-size: 15px;
+    font-weight: 700;
+}
+.panel-ops{
+    height: 20px;
+    width: 100%;
+    background-color:lightslategray;
+    display: flex;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.8rem;
+}
+.hero-section{
+    height: 300px;
+    display: flex;
+    justify-content: center ;
+    align-items:end;
+    background-color:white;
+}
+.hero-message{
+    height: 30px;
+    width: 100%;
+    background-color:black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 0.89rem;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:ivory;
+}
+.box{
+    height: 300px;
+    border: 2px solid black;
+    width:22%;
+    padding-top: 0%;
+}
+.box1{
+    background-color: darkseagreen;
+}
+.box2{
+    background-color:coral;
+}
+.box3{
+    background-color:crimson;
+}
+.box4{
+    background-color:goldenrod;
+}
+.box5{
+    margin-top: 15px;
+    background-color:deepskyblue;
+}
+.box6{
+    margin-top: 15px;
+    background-color:darkgreen;
+}
+.box7{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color:thistle;
+}
+.box8{
+    margin-top: 15px;
+    background-color:cadetblue;
+}
+h2{
+    margin-left: 35px;
+    margin-top: 5px;  
+    font-weight: bolder;  
+}
+
+.foot-pannel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 0.85rem;
+    font-size:medium;
+    align-items: center;
+}
+.foot-pannel2{
+    background-color: #222f3d;
+        color: white;
+        height: 300px;
+        display: flex;
+        justify-content: space-evenly;
+}
+ul{
+    margin-top: 65px;
+}
+ul a{
+    display: block;
+    margin-top: 10px;
+    font-size: 0.89rem;
+}
+.foot-pannel3{
+    color:white;
+    background-color: #37475a;  
+    justify-content: center;
+    display: flex;
+    border: 0.5px solid black;
+
+}
+.foot-pannel4{
+    background-color: black;
+    color: white;
+   /* display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;*/
+    height: 30px;
+}
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+}
+.copyright{
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
